@@ -1,5 +1,3 @@
-
-```markdown
 # 1. Gestión de entornos con Conda
 **Fundación Progreso y Salud – Laboratorio de Ciencia de Datos (LCD)**
 
@@ -10,9 +8,7 @@ El uso de entornos Conda es obligatorio en el LCD. Cada proyecto debe ejecutarse
 ## 1.1. Norma principal
 Cada proyecto debe incluir un archivo:
 
-```
 environment.yml
-```
 
 Ese archivo describe el entorno.  
 Los entornos se crean SIEMPRE usando ese archivo.
