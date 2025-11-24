@@ -68,4 +68,4 @@ python -m ipykernel install --user --name lcd_project --display-name "LCD Projec
 - [ ] Crear el entorno con conda  
 - [ ] Registrar el kernel en Jupyter  
 - [ ] No trabajar nunca en el entorno base  
-```
+
