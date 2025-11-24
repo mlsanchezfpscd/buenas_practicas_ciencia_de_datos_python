@@ -1,3 +1,5 @@
+
+```markdown
 # 1. Gestión de entornos con Conda
 **Fundación Progreso y Salud – Laboratorio de Ciencia de Datos (LCD)**
 
@@ -8,7 +10,9 @@ El uso de entornos Conda es obligatorio en el LCD. Cada proyecto debe ejecutarse
 ## 1.1. Norma principal
 Cada proyecto debe incluir un archivo:
 
+```
 environment.yml
+```
 
 Ese archivo describe el entorno.  
 Los entornos se crean SIEMPRE usando ese archivo.
@@ -36,30 +40,38 @@ dependencies:
   - pip:
       - mlflow
       - pyreadstat
+```
 
 ---
 
 ## 1.3. Crear el entorno
-conda env create -f environment.yml
 
+```bash
+conda env create -f environment.yml
+```
 
 Activarlo:
 
+```bash
 conda activate lcd_project
+```
 
 ---
 
 ## 1.4. Registrar el entorno en JupyterHub
+
+```bash
 python -m ipykernel install --user --name lcd_project --display-name "LCD Project"
+```
 
 ---
 
 ## 1.5. Checklist
 
- Crear un archivo environment.yml en el proyecto
+- [ ] Crear un archivo `environment.yml` en el proyecto  
+- [ ] Crear el entorno con conda  
+- [ ] Registrar el kernel en Jupyter  
+- [ ] No trabajar nunca en el entorno base  
+```
 
- Crear el entorno con conda
-
- Registrar el kernel en Jupyter
-
- No trabajar nunca en el entorno base
+---
