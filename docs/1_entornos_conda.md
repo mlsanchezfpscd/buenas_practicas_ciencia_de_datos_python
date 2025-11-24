@@ -73,5 +73,3 @@ python -m ipykernel install --user --name lcd_project --display-name "LCD Projec
 - [ ] Registrar el kernel en Jupyter  
 - [ ] No trabajar nunca en el entorno base  
 ```
-
----
