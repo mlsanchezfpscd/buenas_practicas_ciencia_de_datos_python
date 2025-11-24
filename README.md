@@ -5,20 +5,35 @@ Este repositorio incluye la guía interna de buenas prácticas recomendadas para
 
 ## Contenido
 manual_buenas_practicas/
+
 │── README.md
+
 │── docs/
+
 │   ├── 1_entornos_conda.md
+
 │   ├── 2_estructura_proyecto.md
+
 │   ├── 3_estilo_codigo.md
+
 │   ├── 4_notebooks.md
+
 │   ├── 5_flujo_datos.md
+
 │   ├── 6_preprocesamiento_qc.md
+
 │   ├── 7_modelado_validacion_ml.md
+
 │   ├── 8_sql_extraccion.md
+
 │   └── 9_reproducibilidad_versionado.md
+
 │── src/
+
 │── templates/
+
 │── notebooks/
+
 └── ...
 
 ## Objetivos del manual
