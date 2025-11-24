@@ -4,10 +4,22 @@
 Este repositorio incluye la guía interna de buenas prácticas recomendadas para el desarrollo de proyectos de ciencia de datos en Python dentro del grupo de investigación. Su objetivo es garantizar la reproducibilidad, coherencia metodológica y trazabilidad en todos los proyectos del laboratorio.
 
 ## Contenido
-- `docs/manual_buenas_practicas_python.md`: Manual institucional de buenas prácticas.
-- `templates/`: Ejemplos de estructuras de proyecto recomendadas.
-- `notebooks/`: Ejemplos ilustrativos de flujo de trabajo.
-- `src/`: Código modular para reutilización en múltiples proyectos.
+manual_buenas_practicas/
+│── README.md
+│── docs/
+│   ├── 1_entornos_conda.md
+│   ├── 2_estructura_proyecto.md
+│   ├── 3_estilo_codigo.md
+│   ├── 4_notebooks.md
+│   ├── 5_flujo_datos.md
+│   ├── 6_preprocesamiento_qc.md
+│   ├── 7_modelado_validacion_ml.md
+│   ├── 8_sql_extraccion.md
+│   └── 9_reproducibilidad_versionado.md
+│── src/
+│── templates/
+│── notebooks/
+└── ...
 
 ## Objetivos del manual
 - Definir estándares mínimos de calidad y reproducibilidad.
